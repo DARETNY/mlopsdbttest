@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/namnam/PycharmProjects/mlopsdbttest/mlruns/307375582611765897/9c1538bd123941949de504b456d47a48/artifacts
+end_time: 1780671822632
+entry_point_name: ''
+experiment_id: '307375582611765897'
+lifecycle_stage: active
+run_id: 9c1538bd123941949de504b456d47a48
+run_name: rumbling-mouse-309
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780671820182
+status: 3
+tags: []
+user_id: namnam

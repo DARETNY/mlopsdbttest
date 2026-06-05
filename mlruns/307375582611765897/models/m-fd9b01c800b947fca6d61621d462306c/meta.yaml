@@ -1,0 +1,10 @@
+artifact_location: file:///Users/namnam/PycharmProjects/mlopsdbttest/mlruns/307375582611765897/models/m-fd9b01c800b947fca6d61621d462306c/artifacts
+creation_timestamp: 1780672497669
+experiment_id: '307375582611765897'
+last_updated_timestamp: 1780672500001
+model_id: m-fd9b01c800b947fca6d61621d462306c
+model_type: null
+name: random_forest_model
+source_run_id: d19de6cd4d3c488f8486637fe7643c3e
+status: 2
+status_message: null

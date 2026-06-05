@@ -1,0 +1,21 @@
+name: MLOps Pipeline
+
+on:
+  push:
+    branches:
+      - "main"
+      - "master" # Kodu gönderdiğinde tetiklenir
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # GitHub'ın ücretsiz sunucusu
+    
+    steps:
+      - name: Kodu Çek
+        uses: actions/checkout@v4
+
+      - name: uv Kurulumu
+        uses: astral-sh/setup-uv@v5 # Hızlı paket yönetimi için uv kuruyoruz
+
+      - name: Docker İmajını İnşa Et
+        run: docker build -t kurumsal-ml-api:latest .
